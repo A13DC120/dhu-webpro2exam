@@ -11,20 +11,7 @@
 	foreach ($pdo->query('SELECT * FROM rooms') as $row){
 		echo "<li><a href='http://localhost/dhu-webpro2exam/exam/messages/?room_id=".$row["id"]."'>".$row["name"]."</a></li><br>";
 }
-
 ?>
-
-</form>
-<html>
-<head>
-	<meta charset="utf-8"/>
-</head>
-<body>
-
-
-</body>
-</html>
-
-    </ul>
+</ul>
 </body>
 </html>
